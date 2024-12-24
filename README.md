@@ -24,6 +24,8 @@ my goal is to develop an intelligent and reliable tool to assist individuals in 
 - Create a circuit diagram showing the connections between the DHT11 sensor, Raindrop sensor, microcontroller, and alert mechanisms.
 - Design the physical casing to ensure the device is compact, weatherproof, and suitable for outdoor use.
 
+![image](https://github.com/user-attachments/assets/bffc75e4-72ca-44ef-bd32-a2ada8c38c9b)
+
 ## Step 4: Prototyping
 - Assemble the selected components according to the circuit diagram.
 - Write and upload the code to the microcontroller to read sensor inputs, process the data, and activate alerts when rain is detected.
