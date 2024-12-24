@@ -1,42 +1,39 @@
-# Alat-Pendeteksi-Hujan_Raindrop-dan-DHT11
-Sebuah alat pendeteksi hujan menggunakan sensor raindrop dan DHT11
+# Rain Detector using DHT11 and Raindrop Sensors
+This project aims to create a weather monitoring system, especially rain detection using raindrop sensors and DHT11
 
-Dibuat oleh tim Mekatronika dan Kecerdasan Buatan 2021 UPI Purwakarta
-- Aisyah Aira Putri Maharani - aisyahairaputrim@upi.edu
-- Muhamad Fajar Imanul Haq - muhamadfajarihaq@upi.edu
-- Diana Eka Putri - dianaeka2003@upi.edu
-- Refrisca Lintang Pramesti - refriscalnt@upi.edu
-
-# Daftar Isi 
-1. Latar Belakang
-2. Demo
-3. Referensi
-
-# Latar Belakang 
-Indonesia merupakan negara yang memiliki iklim tropis dengan dua musim yaitu musim hujan dan musim kemarau. Kedua musim ini di pengaruhi oleh Global Warming yang mengakibatkan kedua musim tersebut menjadi sulit diprediksi kedatangannya. Hal ini tentunya akan berpengaruh pada aktivitas manusia yang dalam kegiatannya membutuhkan cahaya matahari, misalnya kegiatan menjemur baju, makanan atau barang lainnya di luar ruangan.
-
-Oleh karena itu, dibuat sebuah alat pendeteksi hujan berdasarkan intensitas air, suhu, dan kelembaban menggunakan sensor raindrop dan sensor DHT11 agar menjadi sebuah solusi cerdas. 
-
-# Demo 
-Komponen yang digunakan pada projek ini adalah:
+## Tools
 - Esp8266
 - Raindrop sensor
 - HL-01 modul
 - DHT11
 - Blynk Apps
 
-Foto alat 
+## Goals
+my goal is to develop an intelligent and reliable tool to assist individuals in adapting to unpredictable weather conditions caused by global warming. This project aims to provide an efficient solution for detecting rain based on water intensity, temperature, and humidity data. Ultimately, it seeks to support daily activities, such as drying clothes, food, or other items outdoors, by offering timely and accurate rain alerts to improve convenience and efficiency.
+
+## Step 1:  Requirement Analysis
+- Identify the system's functional and non-functional requirements, such as sensor specifications, environmental condition ranges, and alert methods.
+- Research weather patterns and typical use cases for rain detection in tropical climates to ensure the system meets user needs effectively.
+
+## Step 2: Component Selection
+- Select a DHT11 sensor for temperature and humidity measurement and a Raindrop sensor for water intensity detection.
+- Choose a suitable microcontroller to process data and manage system operations.
+- Decide on the type of alert mechanism for indicating rain detection.
+
+## Step 3: System Design
+- Create a circuit diagram showing the connections between the DHT11 sensor, Raindrop sensor, microcontroller, and alert mechanisms.
+- Design the physical casing to ensure the device is compact, weatherproof, and suitable for outdoor use.
+
+## Step 4: Prototyping
+- Assemble the selected components according to the circuit diagram.
+- Write and upload the code to the microcontroller to read sensor inputs, process the data, and activate alerts when rain is detected.
+- Test the prototype in controlled conditions to verify its functionality.
 
 ![sensor 1](https://user-images.githubusercontent.com/92429478/173230333-31d6d82c-4fc6-4d17-b0ea-44e08f2d378c.jpeg)
 
 ![sensor 2](https://user-images.githubusercontent.com/92429478/173230403-473f5198-f7be-4adf-84bd-93e137b81d32.jpeg)
 
-Cara kerja:
+## How it Works
+For testing temperature and humidity values, testing is done by bringing solder to the DHT11 sensor to make sure whether the tool is running or not. For testing the value of water intensity, testing was carried out by dripping water on the raindrop sensor. the value of rain intensity we set to a value of 100 for normal conditions (without water), so that when the raindrop sensor is given water, the value of water intensity that appears on the cell phone will decrease depending on how much water there is. 
 
-Untuk pengujian nilai suhu dan nilai kelembaban, dilakukan pengujian dengan mendekatkan solder pada sensor DHT11 untuk memastikan apakah alat tersebut berjalan atau tidak. Untuk pengujian nilai intensitas air, dilakukan pengujian dengan meneteskan air pada sensor raindrop. nilai dari intensitas hujan kami setting ke nilai 100 untuk keadaan normal (tanpa air), sehingga ketika sensor raindrop diberi air, maka nilai intensitas air yang muncul pada telepon genggam akan semakin berkurang bergantung dari seberapa banyak air yang ada. 
-
-selengkapnya ada disini : https://www.youtube.com/watch?v=wT8t1fPAsLU
-
-# Referensi 
-- "Rancang Bangun Prototipe Detektor Hujan Sederhana Berbasis Raindrop Sensor Menggunakan Buzzer dan LED" oleh Naila Fauza, Dina Syaflita, Safina Salma Ramadini, dan Jumira Annisa. Diakses dari https://ejournal.unib.ac.id/index.php/kumparan_fisika/article/download/16911/9431.
-- "Pengembangan Sistem Akuisisi Data Kelembaban Dan Suhu Dengan Menggunakan Sensor Dht11 Dan Arduino Berbasis IOT" oleh Kabul Setiya Budi dan Yudhiakto Pramudya. Diakses dari http://journal.unj.ac.id/unj/index.php/prosidingsnf/article/view/4114/3081
+full details are here: https://www.youtube.com/watch?v=wT8t1fPAsLU
